@@ -12,7 +12,6 @@ namespace A1.Models
         [Required]
         public string Name { get; set; } = string.Empty;
 
-        // خصائص الطالب المناسبة (بدلاً من كود المادة والساعات)
         public int Age { get; set; }
         public string GradeLevel { get; set; } = string.Empty;
 
